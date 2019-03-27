@@ -13,6 +13,7 @@ function resolve (dir) {
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
+    // ここで、最初に読み込むjsファイルを指定している
     app: './src/main.js'
   },
   output: {

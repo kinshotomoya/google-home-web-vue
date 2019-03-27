@@ -7,9 +7,9 @@
 </template>
 
 <script>
-  // import LoadingOverlay from './packs/components/loading_overlay.vue'
-  // import HeaderTemp from './packs/components/header_temp.vue'
-  // import Content from './packs/components/content.vue'
+  import LoadingOverlay from './components/LoadingOverlay.vue'
+  import HeaderTemp from './components/HeaderTemp.vue'
+  import Content from './components/Content.vue'
 
 
   export default {
